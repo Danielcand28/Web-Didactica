@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.encabezado {
+    background-color: rgb(127, 197, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    
+
+}
+
+
+.encabezado img {
+    width: 80px;
+    
+}
+
+main h1 {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+
+ .imagen2{
+    width: 300px;
+ }   
+
+.imagencentro{
+    text-align: center;  
+}
+
+.imagencentro p {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    
+    
+    
+}
+
+.seccion2{
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+h2{
+    text-align: center;
+}
+ 
+h3 {
+    padding: 0px 20px 0px 20px;
+}
+    
+.seccion4{
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    
+}
+
+.imagen3{
+    width: 200px;
+    height: 200px;
+}
+
+
+.imagenesgalera{
+    width: 300px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;}
+
+.galeria{
+    text-align: center;
+}
+
+
+
+
+    footer {
+        background-color: #333; /* Color de fondo del footer */
+        color: #fff; /* Color de texto en el footer */
+        padding: 20px 0; /* Espaciado interno superior e inferior */
+        text-align: center; /* Centra el contenido del footer */
+    }
+    
+    .contenedor-footer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .informacion, .enlaces {
+        flex: 1;
+        padding: 10px;
+    }
+    
+    .informacion h3, .enlaces h3 {
+        font-size: 18px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin: 5px 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #3d917d;
+        transition: color 0.3s;
+    }
+    
+    a:hover {
+        color: #ffc107; /* Cambia el color del enlace al pasar el cursor por encima */
+    }
+    
+    .derechos {
+        background-color: #222;
+        padding: 10px 0;
+    }
+    
+    ul li .lifo{
+        color: white;
+    }
